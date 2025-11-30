@@ -1,0 +1,14 @@
+{
+  "name": "Common Lisp Starter",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "settings": {},
+  "extensions": [
+    "rheller.alive",
+    "shaunlebron.vscode-parinfer",
+    "nefrob.vscode-just-syntax",
+    "ms-azuretools.vscode-docker"
+  ],
+  "postCreateCommand": "sbcl --version"
+}
